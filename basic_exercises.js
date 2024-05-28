@@ -22,3 +22,9 @@ if (scoreDolphins > scoreKoalas){
 }else if((scoreDolphins === scoreKoalas)){
     console.log("Both win the trophy");
 }
+
+/* Tip Calculator */
+const bill = 430;
+let tip = bill >= 50 && bill <= 300 ? bill * 0.2 : bill * 0.15;
+
+let billTotal = bill >= 50 && bill <= 300 ? console.log(`the bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`) : console.log(`the bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
